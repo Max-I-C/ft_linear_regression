@@ -58,7 +58,7 @@ def main():
             patience_count = 0
         else:
             patience_count += 1
-        if(patience_count >= 5):
+        if(patience_count >= 25):
             print("Breaking to avoid overfeeding at ", epoch, " iteration")
             break
         # -- Early stoping implementation to avoid overfeeding -- # 
